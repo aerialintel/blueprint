@@ -175,7 +175,7 @@ export class DateInput extends AbstractComponent<IDateInputProps, IDateInputStat
                 autoFocus={false}
                 content={popoverContent}
                 enforceFocus={false}
-                inline={true}
+                inline={false}
                 isOpen={this.state.isOpen}
                 onClose={this.handleClosePopover}
                 popoverClassName="pt-dateinput-popover"
